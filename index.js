@@ -1,3 +1,5 @@
-exports.printMsg = function() {
-    console.log("Hello World");
-}
+'use strict';
+
+module.exports = function() {
+    return "Hello World";
+};
